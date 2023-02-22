@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --lightGrey: hsl(217, 12%, 63%);
+    --MediumGrey: hsl(216, 12%, 54%);
+    --DarkBlue: hsl(213, 19%, 18%);
+    --VeryDarkBlue: hsl(216, 12%, 8%);
+    --Orange: hsl(25, 97%, 53%);
+}
+
+
+body {
+    /* background-color: var(--VeryDarkBlue); */
+    font-family: 'Overpass', sans-serif;
+}
+main {
+    background-color: var(--DarkBlue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+}
+.firstPage {
+    height: 450px;
+    width: 450px;
+    position: relative;
+    color: var(--White);
+    border-radius: 1.75em;
+    padding: 40px;
+}
+.star {
+    background-color: var(--MediumGrey);
+}
+
+
+.ratingState {
+    display: none;
+}
